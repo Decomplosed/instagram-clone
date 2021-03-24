@@ -12,6 +12,8 @@ const Login = () => {
 
   const isInvalid = password === '' || emailAddress === '';
 
+  const handleLogin = () => {};
+
   return <div>Login</div>;
 };
 
