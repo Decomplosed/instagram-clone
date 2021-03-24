@@ -10,6 +10,8 @@ const Login = () => {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
+  const isInvalid = password === '' || emailAddress === '';
+
   return <div>Login</div>;
 };
 
