@@ -1,3 +1,4 @@
+import { lazy } from 'react';
 import { BrowserRouter as Routes, Route, Switch } from 'react-router-dom';
 import Login from './pages/Login';
 
