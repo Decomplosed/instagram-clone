@@ -3,7 +3,9 @@ import { BrowserRouter as Routes, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Switch></Switch>
+      <Switch>
+        <Route />
+      </Switch>
     </Router>
   );
 }
