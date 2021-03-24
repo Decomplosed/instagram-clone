@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Suspense fallback={<p>Loading ...</p>}>
         <Switch>
-          <Route path='/login' component={Login} />
+          <Route path={LOGIN} component={Login} />
         </Switch>
       </Suspense>
     </Router>
