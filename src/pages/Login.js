@@ -4,6 +4,7 @@ import FirebaseContext from '../context/firebase';
 
 const Login = () => {
   const history = useHistory();
+  const { firebase } = useContext(FirebaseContext);
 
   return <div>Login</div>;
 };
