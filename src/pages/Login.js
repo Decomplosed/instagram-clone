@@ -14,6 +14,10 @@ const Login = () => {
 
   const handleLogin = () => {};
 
+  useEffect(() => {
+    document.title = 'Login - Instagram';
+  }, []);
+
   return <div>Login</div>;
 };
 
