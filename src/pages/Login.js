@@ -3,6 +3,8 @@ import { useHistory } from 'react-router-dom';
 import FirebaseContext from '../context/firebase';
 
 const Login = () => {
+  const [emailAddress, setEmailAddress] = useState('');
+
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
