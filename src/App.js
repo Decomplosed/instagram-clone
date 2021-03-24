@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route />
+        <Route path='/login' component={Login} />
       </Switch>
     </Router>
   );
