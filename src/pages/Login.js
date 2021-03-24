@@ -18,7 +18,11 @@ const Login = () => {
     document.title = 'Login - Instagram';
   }, []);
 
-  return <div>Login</div>;
+  return (
+    <div className='container flex mx-auo max-w-screen-md items-center h-screen'>
+      Login
+    </div>
+  );
 };
 
 export default Login;
