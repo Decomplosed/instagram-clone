@@ -5,6 +5,7 @@ import FirebaseContext from '../context/firebase';
 const Login = () => {
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
