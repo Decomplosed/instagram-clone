@@ -1,6 +1,5 @@
 import { lazy } from 'react';
-import { BrowserRouter as Routes, Route, Switch } from 'react-router-dom';
-import Login from './pages/Login';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const Login = lazy(() => import('./pages/Login'));
 
