@@ -21,6 +21,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/app.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
