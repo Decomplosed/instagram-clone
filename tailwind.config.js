@@ -9,5 +9,6 @@ module.exports = {
     fill: (theme) => ({
       red: theme('colors.red.primary'),
     }),
+    colors: {},
   },
 };
