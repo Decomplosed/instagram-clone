@@ -28,5 +28,9 @@ module.exports = {
       primary: '#ed4956',
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      display: ['group-hover'],
+    },
+  },
 };
