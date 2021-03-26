@@ -5,5 +5,9 @@ module.exports = {
   purge: {
     content: ['./src/**/*.js', './src/**/**/*.js'],
   },
-  theme: {},
+  theme: {
+    fill: (theme) => ({
+      red: theme('colors.red.primary'),
+    }),
+  },
 };
