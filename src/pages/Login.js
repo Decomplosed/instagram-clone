@@ -22,7 +22,7 @@ const Login = () => {
     <div className='container flex mx-auo max-w-screen-md items-center h-screen'>
       <div className='flex w-3/5'>
         <img
-          src='/images/iphone-with-profile.jps'
+          src='/images/iphone-with-profile.jpg'
           alt='iPhone with Instagram'
         />
       </div>
