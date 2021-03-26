@@ -26,7 +26,9 @@ const Login = () => {
           alt='iPhone with Instagram'
         />
       </div>
-      <div className='flex flex-col w-2/5'></div>
+      <div className='flex flex-col w-2/5'>
+        <p>--FORM--</p>
+      </div>
     </div>
   );
 };
