@@ -28,7 +28,11 @@ const Login = () => {
       </div>
       <div className='flex flex-col w-2/5'>
         <h1 className='flex justify-center w-full'>
-          <img src='/images/logo.png' alt='Instagram' />
+          <img
+            src='/images/logo.png'
+            alt='Instagram'
+            className='mt-2 w-6/12 mb-4'
+          />
         </h1>
       </div>
     </div>
