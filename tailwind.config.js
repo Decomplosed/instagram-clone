@@ -19,5 +19,10 @@ module.exports = {
       light: '#262626',
       faded: '#00000059',
     },
+    gray: {
+      base: '#616161',
+      background: '#fafafa',
+      primary: '#dbdbdb',
+    },
   },
 };
