@@ -15,5 +15,9 @@ module.exports = {
     blue: {
       medium: '#005c98',
     },
+    black: {
+      light: '#262626',
+      faded: '#00000059',
+    },
   },
 };
