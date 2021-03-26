@@ -3,6 +3,6 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
   },
   purge: {
-    
-  }
+    content: ['./src/**/*.js', './src/**/**/*.js'],
+  },
 };
