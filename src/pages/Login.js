@@ -27,7 +27,7 @@ const Login = () => {
         />
       </div>
       <div className='flex flex-col w-2/5'>
-        <div className='flex flex-col items-center bg-white p-4 border border-gray-primary mb-4 roudned'>
+        <div className='flex flex-col items-center bg-white p-4 border border-gray-primary mb-4 rounded'>
           <h1 className='flex justify-center w-full'>
             <img
               src='/images/logo.png'
@@ -63,7 +63,7 @@ const Login = () => {
             </button>
           </form>
         </div>
-        <div className='flex justify-center items-center flex-col w-full bg-white p-4 border border-gray-primary'>
+        <div className='flex justify-center items-center flex-col w-full bg-white p-4 border border-gray-primary rounded'>
           <p className='text-sm'>Don't have an account?{` `}</p>
         </div>
       </div>
