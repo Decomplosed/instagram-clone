@@ -36,7 +36,9 @@ const Login = () => {
         </h1>
         {error && <p className='mb-4 text-xs text-red-primary'>{error}</p>}
 
-        <form onSubmit={handleLogin} method='POST'></form>
+        <form onSubmit={handleLogin} method='POST'>
+          <input />
+        </form>
       </div>
     </div>
   );
