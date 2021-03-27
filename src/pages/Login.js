@@ -66,7 +66,7 @@ const Login = () => {
         <div className='flex justify-center items-center flex-col w-full bg-white p-4 border border-gray-primary rounded'>
           <p className='text-sm'>
             Don't have an account?{` `}
-            <Link></Link>
+            <Link className='font-bold text-blue-medium'></Link>
           </p>
         </div>
       </div>
