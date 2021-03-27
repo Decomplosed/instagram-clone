@@ -54,7 +54,7 @@ const Login = () => {
           <button
             disabled={isInvalid}
             type='submit'
-            className={`bg-blue-medium`}
+            className='bg-blue-medium text-white'
           ></button>
         </form>
       </div>
