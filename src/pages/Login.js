@@ -55,7 +55,9 @@ const Login = () => {
             disabled={isInvalid}
             type='submit'
             className='bg-blue-medium text-white'
-          ></button>
+          >
+            Login
+          </button>
         </form>
       </div>
     </div>
