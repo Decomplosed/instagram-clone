@@ -62,6 +62,7 @@ const Login = () => {
           </button>
         </form>
       </div>
+      <div className='flex justify-center items-center flex-col w-full bg-white p-4 border border-gray-primary'></div>
     </div>
   );
 };
