@@ -35,6 +35,8 @@ const Login = () => {
           />
         </h1>
         {error && <p className='mb-4 text-xs text-red-primary'>{error}</p>}
+
+        <form></form>
       </div>
     </div>
   );
