@@ -7,6 +7,8 @@ const Signup = () => {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
+  const [username, setUsername] = useState('');
+
   const handleSignUp = () => {};
 
   useEffect(() => {
