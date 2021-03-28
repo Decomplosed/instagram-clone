@@ -4,6 +4,8 @@ import FirebaseContext from '../context/firebase';
 import * as ROUTES from '../constants/routes';
 
 const Signup = () => {
+  const history = useHistory();
+
   return <p>Signup</p>;
 };
 
