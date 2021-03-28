@@ -66,6 +66,14 @@ const Signup = () => {
               onChange={({ target }) => setEmailAddress(target.value)}
               value={emailAddress}
             />
+            <input
+              aria-label='Enter your password'
+              type='password'
+              placeholder='Password'
+              className='text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 border border-gray-primary rounded mb-2'
+              onChange={({ target }) => setPassword(target.value)}
+              value={password}
+            />
           </form>
         </div>
         <div className='flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary'>
