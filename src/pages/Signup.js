@@ -13,6 +13,7 @@ const Signup = () => {
   const [password, setPassword] = useState('');
 
   const [error, setError] = useState('');
+  const isInvalid = password === '' || emailAddress === '';
 
   const handleSignUp = () => {};
 
