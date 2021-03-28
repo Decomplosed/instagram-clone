@@ -9,6 +9,7 @@ const Signup = () => {
 
   const [username, setUsername] = useState('');
   const [fullName, setFullName] = useState('');
+  const [emailAddress, setEmailAddress] = useState('');
 
   const handleSignUp = () => {};
 
