@@ -3,6 +3,8 @@ import { useHistory, Link } from 'react-router-dom';
 import FirebaseContext from '../context/firebase';
 import * as ROUTES from '../constants/routes';
 
-const Signup = () => {};
+const Signup = () => {
+  return <p>Signup</p>;
+};
 
 export default Signup;
