@@ -21,6 +21,7 @@ const Login = () => {
       history.push(ROUTES.DASHBOARD);
     } catch (error) {
       setEmailAddress('');
+      setPassword('');
     }
   };
 
