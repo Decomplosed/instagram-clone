@@ -19,7 +19,9 @@ const Login = () => {
     try {
       await firebase.auth().signInWithEmailAndPassword(emailAddress, password);
       history.push(ROUTES.DASHBOARD);
-    } catch (error) {}
+    } catch (error) {
+      setEmailAddress('');
+    }
   };
 
   useEffect(() => {
