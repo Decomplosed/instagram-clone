@@ -36,7 +36,10 @@ const Signup = () => {
           <form onSubmit={handleSignUp} method='POST'></form>
         </div>
         <div className='flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary'>
-          <p className='text-sm'>Have an account?{` `}</p>
+          <p className='text-sm'>
+            Have an account?{` `}
+            <Link className='font-bold text-blue-medium'>Login</Link>
+          </p>
         </div>
       </div>
     </div>
