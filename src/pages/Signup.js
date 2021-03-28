@@ -4,3 +4,5 @@ import FirebaseContext from '../context/firebase';
 import * as ROUTES from '../constants/routes';
 
 const Signup = () => {};
+
+export default Signup;
