@@ -9,6 +9,10 @@ const Signup = () => {
 
   const handleSignUp = () => {};
 
+  useEffect(() => {
+    document.title = 'Sign Up - Instagram';
+  }, []);
+
   return <p>Signup</p>;
 };
 
