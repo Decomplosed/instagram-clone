@@ -17,6 +17,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
+      await firebase.auth();
     } catch (error) {}
   };
 
