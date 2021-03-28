@@ -74,6 +74,14 @@ const Signup = () => {
               onChange={({ target }) => setPassword(target.value)}
               value={password}
             />
+            <button
+              disabled={isInvalid}
+              type='submit'
+              className={`bg-blue-medium text-white w-full rounded h-8 font-bold
+            ${isInvalid && 'opacity-50'}`}
+            >
+              Sign Up
+            </button>
           </form>
         </div>
         <div className='flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary'>
