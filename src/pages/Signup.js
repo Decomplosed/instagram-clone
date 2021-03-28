@@ -5,6 +5,7 @@ import * as ROUTES from '../constants/routes';
 
 const Signup = () => {
   const history = useHistory();
+  const { firebase } = useContext(FirebaseContext);
 
   return <p>Signup</p>;
 };
