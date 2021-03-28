@@ -17,7 +17,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      await firebase.auth();
+      await firebase.auth().signInWithEmailAndPassword(emailAddress, password);
     } catch (error) {}
   };
 
