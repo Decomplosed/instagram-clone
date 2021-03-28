@@ -12,6 +12,8 @@ const Signup = () => {
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
 
+  const [error, setError] = useState('');
+
   const handleSignUp = () => {};
 
   useEffect(() => {
