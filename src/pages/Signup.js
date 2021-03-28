@@ -50,6 +50,14 @@ const Signup = () => {
               onChange={({ target }) => setUsername(target.value)}
               value={username}
             />
+            <input
+              aria-label='Enter your full name'
+              type='text'
+              placeholder='Full name'
+              className='text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 border border-gray-primary rounded mb-2'
+              onChange={({ target }) => setFullName(target.value)}
+              value={fullName}
+            />
           </form>
         </div>
         <div className='flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary'>
