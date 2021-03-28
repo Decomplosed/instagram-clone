@@ -22,6 +22,7 @@ const Login = () => {
     } catch (error) {
       setEmailAddress('');
       setPassword('');
+      setError(error.message);
     }
   };
 
