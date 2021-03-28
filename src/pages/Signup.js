@@ -8,6 +8,7 @@ const Signup = () => {
   const { firebase } = useContext(FirebaseContext);
 
   const [username, setUsername] = useState('');
+  const [fullName, setFullName] = useState('');
 
   const handleSignUp = () => {};
 
