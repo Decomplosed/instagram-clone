@@ -15,6 +15,9 @@ const Login = () => {
 
   const handleLogin = async (event) => {
     event.preventDefault();
+
+    try {
+    } catch (error) {}
   };
 
   useEffect(() => {
