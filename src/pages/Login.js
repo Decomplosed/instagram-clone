@@ -13,7 +13,9 @@ const Login = () => {
 
   const isInvalid = password === '' || emailAddress === '';
 
-  const handleLogin = async (event) => {};
+  const handleLogin = async (event) => {
+    event.preventDefault();
+  };
 
   useEffect(() => {
     document.title = 'Login - Instagram';
