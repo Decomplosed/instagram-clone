@@ -41,7 +41,16 @@ const Signup = () => {
 
           {error && <p className='mb-4 text-xs text-red-primary'>{error}</p>}
 
-          <form onSubmit={handleSignUp} method='POST'></form>
+          <form onSubmit={handleSignUp} method='POST'>
+            <input
+              aria-label='Enter your username'
+              type='text'
+              placeholder='Username'
+              className='text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 border border-gray-primary rounded mb-2'
+              onChange={({ target }) => setUsername(target.value)}
+              value={username}
+            />
+          </form>
         </div>
         <div className='flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary'>
           <p className='text-sm'>
