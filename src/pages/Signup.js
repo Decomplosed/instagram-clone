@@ -33,6 +33,7 @@ const Signup = () => {
         await firebase.firestore().collection('users').add({
           userId: createdUserResult.user.uid,
           username: username.toLowerCase(),
+          fullName,
         });
       } catch (error) {}
     }
