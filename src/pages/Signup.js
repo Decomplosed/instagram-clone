@@ -46,6 +46,7 @@ const Signup = () => {
         history.push(ROUTES.DASHBOARD);
       } catch (error) {
         setFullName('');
+        setEmailAddress('');
       }
     }
   };
