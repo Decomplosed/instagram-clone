@@ -39,6 +39,7 @@ const Signup = () => {
             fullName,
             emailAddress: emailAddress.toLowerCase(),
             following: ['2'],
+            followers: [],
           });
       } catch (error) {}
     }
