@@ -40,6 +40,7 @@ const Signup = () => {
             emailAddress: emailAddress.toLowerCase(),
             following: ['2'],
             followers: [],
+            dateCreated: Date.now(),
           });
       } catch (error) {}
     }
