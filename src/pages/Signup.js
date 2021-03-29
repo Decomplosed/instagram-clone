@@ -29,6 +29,8 @@ const Signup = () => {
         await createdUserResult.user.updateProfile({
           displayName: username,
         });
+
+        await firebase.firestore();
       } catch (error) {}
     }
   };
