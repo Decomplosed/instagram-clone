@@ -44,7 +44,9 @@ const Signup = () => {
           });
 
         history.push(ROUTES.DASHBOARD);
-      } catch (error) {}
+      } catch (error) {
+        setFullName('');
+      }
     }
   };
 
