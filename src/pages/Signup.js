@@ -42,6 +42,8 @@ const Signup = () => {
             followers: [],
             dateCreated: Date.now(),
           });
+
+        history.push(ROUTES.DASHBOARD);
       } catch (error) {}
     }
   };
