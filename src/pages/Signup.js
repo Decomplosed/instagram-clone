@@ -15,7 +15,7 @@ const Signup = () => {
   const [error, setError] = useState('');
   const isInvalid = password === '' || emailAddress === '';
 
-  const handleSignUp = async () => {};
+  const handleSignUp = async (event) => {};
 
   useEffect(() => {
     document.title = 'Sign Up - Instagram';
