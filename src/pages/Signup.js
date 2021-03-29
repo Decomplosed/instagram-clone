@@ -34,6 +34,7 @@ const Signup = () => {
           userId: createdUserResult.user.uid,
           username: username.toLowerCase(),
           fullName,
+          emailAddress: emailAddress.toLowerCase(),
         });
       } catch (error) {}
     }
