@@ -25,6 +25,8 @@ const Signup = () => {
         const createdUserResult = await firebase
           .auth()
           .createUserWithEmailAndPassword(emailAddress, password);
+
+        await createdUserResult.user.updateProfile();
       } catch (error) {}
     }
   };
