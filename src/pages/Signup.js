@@ -17,6 +17,8 @@ const Signup = () => {
 
   const handleSignUp = async (event) => {
     event.preventDefault();
+
+    const usernameExists = await doesUsernameExist(username);
   };
 
   useEffect(() => {
