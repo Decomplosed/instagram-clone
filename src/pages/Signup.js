@@ -26,7 +26,9 @@ const Signup = () => {
           .auth()
           .createUserWithEmailAndPassword(emailAddress, password);
 
-        await createdUserResult.user.updateProfile();
+        await createdUserResult.user.updateProfile({
+          displayName: username,
+        });
       } catch (error) {}
     }
   };
