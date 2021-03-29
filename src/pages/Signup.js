@@ -20,6 +20,8 @@ const Signup = () => {
     event.preventDefault();
 
     const usernameExists = await doesUsernameExist(username);
+    if (!usernameExists.length) {
+    }
   };
 
   useEffect(() => {
