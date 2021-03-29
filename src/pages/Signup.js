@@ -21,6 +21,8 @@ const Signup = () => {
 
     const usernameExists = await doesUsernameExist(username);
     if (!usernameExists.length) {
+      try {
+      } catch (error) {}
     }
   };
 
