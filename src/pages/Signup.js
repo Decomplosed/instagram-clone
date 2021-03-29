@@ -22,6 +22,7 @@ const Signup = () => {
     const usernameExists = await doesUsernameExist(username);
     if (!usernameExists.length) {
       try {
+        const createdUserResult = await firebase;
       } catch (error) {}
     }
   };
