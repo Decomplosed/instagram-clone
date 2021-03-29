@@ -30,7 +30,9 @@ const Signup = () => {
           displayName: username,
         });
 
-        await firebase.firestore().collection('users').add({});
+        await firebase.firestore().collection('users').add({
+          userId: createdUserResult.user.uid,
+        });
       } catch (error) {}
     }
   };
