@@ -5,7 +5,7 @@ const Dashboard = () => {
     document.title = 'Instagram';
   }, []);
 
-  return <div></div>;
+  return <div className='bg-gray-background'></div>;
 };
 
 export default Dashboard;
