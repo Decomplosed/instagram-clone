@@ -4,6 +4,7 @@ import * as ROUTES from './constants/routes';
 
 const Login = lazy(() => import('./pages/Login'));
 const SignUp = lazy(() => import('./pages/Signup'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 function App() {
   return (
