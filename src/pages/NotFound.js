@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 
 const NotFound = () => {
+  useEffect(() => {}, []);
+
   return (
     <div className='bg-gray-background'>
       <div className='max-w-screen-lg mx-auto'>
