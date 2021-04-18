@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 
 const NotFound = () => {
-  useEffect(() => {}, []);
+  useEffect(() => {
+    document.title = 'Not Found - Instagram';
+  }, []);
 
   return (
     <div className='bg-gray-background'>
