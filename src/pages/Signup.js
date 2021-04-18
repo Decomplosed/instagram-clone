@@ -48,6 +48,7 @@ const Signup = () => {
         setFullName('');
         setEmailAddress('');
         setPassword('');
+        setError(error.message);
       }
     }
   };
