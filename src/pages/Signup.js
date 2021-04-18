@@ -45,6 +45,7 @@ const Signup = () => {
 
         history.push(ROUTES.DASHBOARD);
       } catch (error) {
+        setUsername('');
         setFullName('');
         setEmailAddress('');
         setPassword('');
