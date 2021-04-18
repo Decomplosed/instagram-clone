@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const NotFound = () => (
   <div className='bg-gray-background'>
