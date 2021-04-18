@@ -7,7 +7,11 @@ const Dashboard = () => {
 
   return (
     <div className='bg-gray-background'>
-      <div className='grid'></div>
+      {/* <Header /> */}
+      <div className='grid'>
+        {/* <Timeline /> */}
+        {/* <Sidebar /> */}
+      </div>
     </div>
   );
 };
