@@ -9,4 +9,5 @@ const NotFound = () => {
     </div>
   );
 };
-export defautl NotFound
+
+export default NotFound;
