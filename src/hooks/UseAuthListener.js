@@ -5,6 +5,7 @@ const UseAuthListener = () => {
   const [user, setUser] = useState(
     JSON.parse(localStorage.getItem('authUser')),
   );
+  const { firebase } = useContext(FirebaseContext);
 };
 
 export default UseAuthListener;
