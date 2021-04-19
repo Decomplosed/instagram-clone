@@ -11,7 +11,7 @@ const Dashboard = () => {
     <div className='bg-gray-background'>
       <Header />
       <div className='grid'>
-        {/* <Timeline /> */}
+        <Timeline />
         {/* <Sidebar /> */}
       </div>
     </div>
