@@ -8,7 +8,7 @@ const Dashboard = () => {
 
   return (
     <div className='bg-gray-background'>
-      {/* <Header /> */}
+      <Header />
       <div className='grid'>
         {/* <Timeline /> */}
         {/* <Sidebar /> */}
