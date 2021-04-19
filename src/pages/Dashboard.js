@@ -13,7 +13,7 @@ const Dashboard = () => {
       <Header />
       <div className='grid'>
         <Timeline />
-        {/* <Sidebar /> */}
+        <Sidebar />
       </div>
     </div>
   );
