@@ -17,7 +17,7 @@ const UseAuthListener = () => {
         setUser(null);
       }
     });
-  }, []);
+  }, [firebase]);
 
   return { user };
 };
