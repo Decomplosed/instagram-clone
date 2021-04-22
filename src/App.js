@@ -9,6 +9,8 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => {
+  const { user } = UseAuthListener();
+
   return (
     <Router>
       <Suspense fallback={<p>Loading ...</p>}>
