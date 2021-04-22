@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import * as ROUTES from './constants/routes';
+import UseAuthListener from './hooks/UseAuthListener';
 
 const Login = lazy(() => import('./pages/Login'));
 const SignUp = lazy(() => import('./pages/Signup'));
