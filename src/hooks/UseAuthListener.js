@@ -14,6 +14,7 @@ const UseAuthListener = () => {
         setUser(authUser);
       } else {
         localStorage.removeItem('authUser');
+        setUser(null);
       }
     });
   }, []);
