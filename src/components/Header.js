@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className='h=16 bg-white border-b border-gray-primary mb-8'>
       <div className='container h-full max-w-screen-lg mx-auto'>
-        <p>Hello</p>
+        <div className='flex justify-between h-full'></div>
       </div>
     </header>
   );
