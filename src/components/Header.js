@@ -11,7 +11,13 @@ const Header = () => {
   return (
     <header className='h=16 bg-white border-b border-gray-primary mb-8'>
       <div className='container h-full max-w-screen-lg mx-auto'>
-        <div className='flex justify-between h-full'></div>
+        <div className='flex justify-between h-full'>
+          <div className='flex items-center text-center text-gray-700 cursor-pointer align-items'>
+            <h1 className='justify-center w-full'>
+              <Link to={ROUTES.DASHBOARD}></Link>
+            </h1>
+          </div>
+        </div>
       </div>
     </header>
   );
