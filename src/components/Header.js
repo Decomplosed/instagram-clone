@@ -4,6 +4,7 @@ import UserContext from '../context/user';
 
 const Header = () => {
   const { firebase } = useContext(FirebaseContext);
+  const { user } = useContext(UserContext);
 
   return <div>HEADER COMPONENT</div>;
 };
