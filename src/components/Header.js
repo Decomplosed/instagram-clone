@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import FirebaseContext from '../context/firebase';
 import UserContext from '../context/user';
-import * as ROTUES from '../constants/routes';
+import * as ROUTES from '../constants/routes';
 
 const Header = () => {
   const { firebase } = useContext(FirebaseContext);
