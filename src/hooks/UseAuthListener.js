@@ -12,6 +12,7 @@ const UseAuthListener = () => {
       if (authListener) {
         localStorage.setItem('authUser', JSON.stringify(authUser));
         setUser(authUser);
+      } else {
       }
     });
   }, []);
