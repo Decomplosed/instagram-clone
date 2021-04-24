@@ -68,7 +68,9 @@ const Header = () => {
                   </svg>
                 </button>
                 <div className='flex items-center cursor-pointer'>
-                  <Link to={`/p/${user.displayName}`}></Link>
+                  <Link to={`/p/${user.displayName}`}>
+                    <img src="" alt=""/>
+                  </Link>
                 </div>
               </>
             ) : (
