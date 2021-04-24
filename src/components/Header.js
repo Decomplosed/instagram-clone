@@ -42,7 +42,11 @@ const Header = () => {
                     />
                   </svg>
                 </Link>
-                <button type='button' title='Sign Out'></button>
+                <button
+                  type='button'
+                  title='Sign Out'
+                  onClick={() => firebase.auth().signOut()}
+                ></button>
               </>
             ) : (
               <></>
