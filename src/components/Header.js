@@ -26,7 +26,7 @@ const Header = () => {
           <div className='flex items-center text-center text-gray-700 align-items'>
             {user ? (
               <>
-                <Link to={ROUTES.DASHBOARD}></Link>
+                <Link to={ROUTES.DASHBOARD} aria-label='Dashboard'></Link>
               </>
             ) : (
               <></>
