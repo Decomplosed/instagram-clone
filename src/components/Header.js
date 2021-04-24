@@ -82,7 +82,7 @@ const Header = () => {
                 <Link to={ROUTES.LOGIN}>
                   <button type='button'>Log In</button>
                 </Link>
-                <Link></Link>
+                <Link to={ROUTES.SIGN_UP}></Link>
               </>
             )}
           </div>
