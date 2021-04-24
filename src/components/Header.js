@@ -87,7 +87,11 @@ const Header = () => {
                     Log In
                   </button>
                 </Link>
-                <Link to={ROUTES.SIGN_UP} type='button'>
+                <Link
+                  to={ROUTES.SIGN_UP}
+                  type='button'
+                  className='w-20 h-8 text-sm font-bold rounded text-blue-medium'
+                >
                   Sign Up
                 </Link>
               </>
