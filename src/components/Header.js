@@ -42,7 +42,7 @@ const Header = () => {
                     />
                   </svg>
                 </Link>
-                <button></button>
+                <button type='button'></button>
               </>
             ) : (
               <></>
