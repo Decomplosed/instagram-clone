@@ -24,7 +24,13 @@ const Header = () => {
             </h1>
           </div>
           <div className='flex items-center text-center text-gray-700 align-items'>
-            {user ? <></> : <></>}
+            {user ? (
+              <>
+                <Link></Link>
+              </>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>
