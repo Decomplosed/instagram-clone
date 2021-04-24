@@ -79,7 +79,7 @@ const Header = () => {
               </>
             ) : (
               <>
-                <Link></Link>
+                <Link to={ROUTES.LOGIN}></Link>
               </>
             )}
           </div>
