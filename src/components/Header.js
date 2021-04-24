@@ -69,7 +69,11 @@ const Header = () => {
                 </button>
                 <div className='flex items-center cursor-pointer'>
                   <Link to={`/p/${user.displayName}`}>
-                    <img className='flex w-8 h-8 rounder-full' src='' alt='' />
+                    <img
+                      className='flex w-8 h-8 rounder-full'
+                      src={`/images/avatars/${user.displayName}.jpg`}
+                      alt=''
+                    />
                   </Link>
                 </div>
               </>
