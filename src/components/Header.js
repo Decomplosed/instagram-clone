@@ -15,7 +15,11 @@ const Header = () => {
           <div className='flex items-center text-center text-gray-700 cursor-pointer align-items'>
             <h1 className='justify-center w-full'>
               <Link to={ROUTES.DASHBOARD}>
-                <img src='/images/logo.png' alt='Instagram' />
+                <img
+                  src='/images/logo.png'
+                  alt='Instagram'
+                  className='w-6/12 mt-2'
+                />
               </Link>
             </h1>
           </div>
