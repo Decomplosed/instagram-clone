@@ -46,6 +46,11 @@ const Header = () => {
                   type='button'
                   title='Sign Out'
                   onClick={() => firebase.auth().signOut()}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      firebase.auth().signOut();
+                    }
+                  }}
                 ></button>
               </>
             ) : (
