@@ -72,7 +72,7 @@ const Header = () => {
                     <img
                       className='flex w-8 h-8 rounder-full'
                       src={`/images/avatars/${user.displayName}.jpg`}
-                      alt=''
+                      alt={`${user.displayName} profile picture`}
                     />
                   </Link>
                 </div>
