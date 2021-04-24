@@ -79,7 +79,9 @@ const Header = () => {
               </>
             ) : (
               <>
-                <Link to={ROUTES.LOGIN}></Link>
+                <Link to={ROUTES.LOGIN}>
+                  <button></button>
+                </Link>
               </>
             )}
           </div>
