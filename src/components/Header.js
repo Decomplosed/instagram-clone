@@ -9,7 +9,7 @@ const Header = () => {
   const { user } = useContext(UserContext);
 
   return (
-    <header className='h=16 bg-white border-b border-gray-primary mb-8'>
+    <header className='h-16 mb-8 bg-white border-b border-gray-primary'>
       <div className='container h-full max-w-screen-lg mx-auto'>
         <div className='flex justify-between h-full'>
           <div className='flex items-center text-center text-gray-700 cursor-pointer align-items'>
