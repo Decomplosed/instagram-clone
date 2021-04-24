@@ -23,7 +23,9 @@ const Header = () => {
               </Link>
             </h1>
           </div>
-          <div className='flex items-center text-center text-gray-700 align-items'></div>
+          <div className='flex items-center text-center text-gray-700 align-items'>
+            {user ? <></> : <></>}
+          </div>
         </div>
       </div>
     </header>
