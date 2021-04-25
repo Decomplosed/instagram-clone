@@ -13,6 +13,7 @@ const useUser = () => {
     }
 
     if (user?.uid) {
+      getUserObjByUserId();
     }
   }, [user]);
 };
