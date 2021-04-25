@@ -11,5 +11,5 @@ export async function doesUsernameExist(username) {
 }
 
 export async function getUserByUserID(userId) {
-  const result = await firebase.firestore();
+  const result = await firebase.firestore().collection('users');
 }
