@@ -8,7 +8,7 @@ const useUser = () => {
 
   useEffect(() => {
     async function getUserObjByUserId() {
-      setActiveUser(response);
+      const response = await getUserObjByUserId();
     }
 
     getUserObjByUserId();
