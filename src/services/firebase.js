@@ -16,4 +16,6 @@ export async function getUserByUserID(userId) {
     .collection('users')
     .where('userId', '==', userId)
     .get();
+
+  const user = result.map((item) => ({ ...item.data }));
 }
