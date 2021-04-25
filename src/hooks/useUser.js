@@ -12,7 +12,8 @@ const useUser = () => {
       setActiveUser(response);
     }
 
-    getUserObjByUserId();
+    if (user?.uid) {
+    }
   }, [user]);
 };
 
