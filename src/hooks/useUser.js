@@ -3,6 +3,7 @@ import UserContext from '../context/user';
 
 const useUser = () => {
   const [activeUser, setActiveUser] = useState({});
+  const { user } = useContext(UserContext);
 };
 
 export default useUser;
