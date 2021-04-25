@@ -14,5 +14,6 @@ export async function getUserByUserID(userId) {
   const result = await firebase
     .firestore()
     .collection('users')
-    .where('userId', '==', userId);
+    .where('userId', '==', userId)
+    .get();
 }
