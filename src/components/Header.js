@@ -92,6 +92,7 @@ const Header = () => {
                   type='button'
                   className='w-20 h-8 text-sm font-bold rounded text-blue-medium'
                 >
+                  <button></button>
                   Sign Up
                 </Link>
               </>
