@@ -5,7 +5,13 @@ const useUser = () => {
   const [activeUser, setActiveUser] = useState({});
   const { user } = useContext(UserContext);
 
-  useEffect(() => {}, [user]);
+  useEffect(() => {
+    async function getUserObjByUserId() {
+      setActiveUser(response);
+    }
+
+    getUserObjByUserId();
+  }, [user]);
 };
 
 export default useUser;
