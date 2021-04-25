@@ -17,5 +17,5 @@ export async function getUserByUserID(userId) {
     .where('userId', '==', userId)
     .get();
 
-  const user = result.map((item) => ({ ...item.data }));
+  const user = result.map((item) => ({ ...item.data, docId: item.id }));
 }
