@@ -18,4 +18,6 @@ export async function getUserByUserID(userId) {
     .get();
 
   const user = result.map((item) => ({ ...item.data, docId: item.id }));
+
+  return user;
 }
