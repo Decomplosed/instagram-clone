@@ -5,7 +5,7 @@ const useUser = () => {
   const [activeUser, setActiveUser] = useState({});
   const { user } = useContext(UserContext);
 
-  useEffect(() => {}, []);
+  useEffect(() => {}, [user]);
 };
 
 export default useUser;
