@@ -91,8 +91,9 @@ const Header = () => {
                   <button
                     type='button'
                     className='w-20 h-8 text-sm font-bold rounded text-blue-medium'
-                  ></button>
-                  Sign Up
+                  >
+                    Sign Up
+                  </button>
                 </Link>
               </>
             )}
