@@ -16,6 +16,8 @@ const useUser = () => {
       getUserObjByUserId();
     }
   }, [user]);
+
+  return { user: activeUser };
 };
 
 export default useUser;
