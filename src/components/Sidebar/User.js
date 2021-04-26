@@ -11,6 +11,7 @@ const User = ({ username, fullName }) =>
       to={`/p/${username}`}
       className='grid items-center grid-cols-4 gap-4 mb-6'
     >
+      <img className='flex w-16 mr-3 rounded-full' />
       <p>{username}</p>
     </Link>
   );
