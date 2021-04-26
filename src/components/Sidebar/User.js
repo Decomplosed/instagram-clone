@@ -7,7 +7,10 @@ const User = ({ username, fullName }) =>
   !username || !fullName ? (
     <Skeleton count={1} height={61} />
   ) : (
-    <Link to={`/p/${username}`} className='grid'>
+    <Link
+      to={`/p/${username}`}
+      className='grid items-center grid-cols-4 gap-4 mb-6'
+    >
       <p>{username}</p>
     </Link>
   );
