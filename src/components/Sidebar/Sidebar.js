@@ -10,8 +10,8 @@ const Sidebar = () => {
 
   return (
     <div className='p-4'>
-      {/* <User /> */}
-      {/* <Suggestions /> */}
+      <User />
+      <Suggestions />
     </div>
   );
 };
