@@ -7,7 +7,7 @@ const User = ({ username, fullName }) =>
   !username || !fullName ? (
     <Skeleton count={1} height={61} />
   ) : (
-    <Link to={`/p/${username}`}></Link>
+    <Link to={`/p/${username}`} className='grid'></Link>
   );
 
 User.propTypes = {
