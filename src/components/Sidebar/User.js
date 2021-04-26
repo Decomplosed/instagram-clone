@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import Skeleton from 'react-loading-skeleton';
 
 const User = ({ username, fullName }) =>
-  !username || !fullName ? <Skeleton /> : <Skeleton></Skeleton>;
+  !username || !fullName ? (
+    <Skeleton count={1} height={61} />
+  ) : (
+    <Skeleton></Skeleton>
+  );
 
 User.propTypes = {
   username: PropTypes.string,
