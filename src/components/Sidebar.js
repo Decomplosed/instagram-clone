@@ -1,6 +1,7 @@
 import React from 'react';
 import useUser from '../hooks/useUser';
-import User from './user';
+import User from './User';
+import Suggestions from './Suggestions';
 
 const Sidebar = () => {
   const {
