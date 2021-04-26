@@ -1,5 +1,6 @@
 import React from 'react';
 import useUser from '../hooks/useUser';
+import User from './user';
 
 const Sidebar = () => {
   const {
