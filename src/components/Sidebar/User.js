@@ -19,7 +19,7 @@ const User = ({ username, fullName }) =>
         />
       </div>
       <div className='col-span-3'>
-        <p className='text-sm font-bold'></p>
+        <p className='text-sm font-bold'>{username}</p>
       </div>
     </Link>
   );
