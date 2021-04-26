@@ -18,7 +18,9 @@ const User = ({ username, fullName }) =>
           alt={username}
         />
       </div>
-      <div className='col-span-3'></div>
+      <div className='col-span-3'>
+        <p className='text-sm font-bold'></p>
+      </div>
     </Link>
   );
 
