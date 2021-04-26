@@ -6,7 +6,12 @@ const Sidebar = () => {
     user: { fullName, username, userId },
   } = useUser();
 
-  return <div className='p-4'></div>;
+  return (
+    <div className='p-4'>
+      {/* <User /> */}
+      {/* <Suggestions /> */}
+    </div>
+  );
 };
 
 export default Sidebar;
