@@ -12,7 +12,11 @@ const User = ({ username, fullName }) =>
       className='grid items-center grid-cols-4 gap-4 mb-6'
     >
       <div className='flex items-center justify-between col-span-1'>
-        <img className='flex w-16 mr-3 rounded-full' />
+        <img
+          className='flex w-16 mr-3 rounded-full'
+          src={`/images/avatars/${username}.jpg`}
+          alt={username}
+        />
         <p>{username}</p>
       </div>
     </Link>
