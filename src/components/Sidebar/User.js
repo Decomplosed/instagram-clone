@@ -17,7 +17,6 @@ const User = ({ username, fullName }) =>
           src={`/images/avatars/${username}.jpg`}
           alt={username}
         />
-        <p>{username}</p>
       </div>
     </Link>
   );
