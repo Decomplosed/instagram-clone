@@ -22,4 +22,4 @@ export async function getUserByUserId(userId) {
   return user;
 }
 
-export async function getUggestedProfiles() {}
+export async function getUggestedProfiles(userId) {}
