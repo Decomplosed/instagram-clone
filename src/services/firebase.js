@@ -21,3 +21,5 @@ export async function getUserByUserId(userId) {
 
   return user;
 }
+
+export async function getUggestedProfiles() {}
