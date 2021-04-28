@@ -8,7 +8,9 @@ const Suggestions = () => {
   return !profiles ? (
     <Skeleton count={1} height={150} className='mt-5' />
   ) : profiles.length > 0 ? (
-    <div className='flex flex-col rounded'></div>
+    <div className='flex flex-col rounded'>
+      <p className='text-bold text-gray-base'>Suggestions for you</p>
+    </div>
   ) : null;
 };
 
