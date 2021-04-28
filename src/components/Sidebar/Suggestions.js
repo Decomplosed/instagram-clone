@@ -11,6 +11,8 @@ const Suggestions = () => {
       const response = await getSuggestedProfiles(userId);
       setProfiles(response);
     }
+
+    suggestedProfiles();
   }, []);
 
   return !profiles ? (
