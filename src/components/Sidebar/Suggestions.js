@@ -5,7 +5,9 @@ import Skeleton from 'react-loading-skeleton';
 const Suggestions = () => {
   const [profiles, setProfiles] = useState(null);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    async function suggestedProfiles() {}
+  }, []);
 
   return !profiles ? (
     <Skeleton count={1} height={150} className='mt-5' />
