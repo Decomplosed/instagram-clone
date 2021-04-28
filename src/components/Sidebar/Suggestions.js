@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Suggestions = () => {
   const [profiles, setProfiles] = useState(null);
 
-  return <p>SUGGESTIONS COMPONENT</p>;
+  return !profiles ? <></> : <></>;
 };
 
 Suggestions.propTypes = {
