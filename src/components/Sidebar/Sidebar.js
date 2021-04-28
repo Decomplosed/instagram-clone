@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import useUser from '../../hooks/useUser';
 import User from './User';
 import Suggestions from './Suggestions';
