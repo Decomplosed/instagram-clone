@@ -5,7 +5,7 @@ import Skeleton from 'react-loading-skeleton';
 const Suggestions = () => {
   const [profiles, setProfiles] = useState(null);
 
-  return !profiles ? <></> : <></>;
+  return !profiles ? <Skeleton /> : <></>;
 };
 
 Suggestions.propTypes = {
