@@ -9,7 +9,7 @@ const Suggestions = () => {
     <Skeleton count={1} height={150} className='mt-5' />
   ) : profiles.length > 0 ? (
     <div className='flex flex-col rounded'>
-      <div></div>
+      <div className='flex items-center justify-between mb-2 text-sm align-items'></div>
       <p className='text-bold text-gray-base'>Suggestions for you</p>
     </div>
   ) : null;
