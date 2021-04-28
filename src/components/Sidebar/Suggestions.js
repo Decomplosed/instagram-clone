@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Suggestions = () => {
-  const [profiles, setProfiles] = useState({});
+  const [profiles, setProfiles] = useState(null);
 
   return <p>SUGGESTIONS COMPONENT</p>;
 };
