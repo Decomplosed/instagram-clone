@@ -8,10 +8,8 @@ const Suggestions = () => {
   return !profiles ? (
     <Skeleton count={1} height={150} className='mt-5' />
   ) : profiles.length > 0 ? (
-    <></>
-  ) : (
-    <></>
-  );
+    <div></div>
+  ) : null;
 };
 
 Suggestions.propTypes = {
