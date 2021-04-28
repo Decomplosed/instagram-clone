@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Timeline = () => {
-  return <div>TIMELINE COMPONENT</div>;
+  return <div className='container col-span-2'></div>;
 };
 
 export default Timeline;
