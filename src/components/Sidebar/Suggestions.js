@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Skeleton from 'react-loading-skeleton';
+import { getSuggestedProfiles } from '../../services/firebase';
 
 const Suggestions = () => {
   const [profiles, setProfiles] = useState(null);
