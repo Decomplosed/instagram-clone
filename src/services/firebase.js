@@ -22,4 +22,6 @@ export async function getUserByUserId(userId) {
   return user;
 }
 
-export async function getUggestedProfiles(userId) {}
+export async function getUggestedProfiles(userId) {
+  const result = await firebase.firestore();
+}
