@@ -7,4 +7,8 @@ const Suggestions = () => {
   return <p>SUGGESTIONS COMPONENT</p>;
 };
 
+Suggestions.propTypes = {
+  userId: PropTypes.string,
+};
+
 export default Suggestions;
